@@ -36,8 +36,8 @@ function connect(){
             if(msg.data.includes("add"))
             {
                 console.log("Add test")
-                const myArray = text.split(":");
-                console.log(myArray[1]);
+                const myArray = msg.data.split(":");
+                eval(myArray[1]);
             }
         }
         webSocket.onclose = function(){
