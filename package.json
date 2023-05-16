@@ -1,0 +1,16 @@
+{
+  "name": "mt",
+  "version": "1.0.0",
+  "description": "a",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Lynix",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "pws": "^7.0.0",
+    "ws": "^8.13.0"
+  }
+}
