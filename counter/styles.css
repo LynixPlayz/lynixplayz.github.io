@@ -1,0 +1,8 @@
+@font-face {
+    font-family: myFirstFont;
+    src: url("FFFFORWA.ttf");
+}
+h1 {
+    text-align: center;
+    font-family: myFirstFont;
+}
